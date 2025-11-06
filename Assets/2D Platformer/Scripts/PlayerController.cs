@@ -61,10 +61,10 @@ namespace Platformer
                     canShoot = true;
                 }
             }
-            if(canShoot && Input.GetMouseButton(0))
+            /*if(canShoot *//*&& Input.GetMouseButton(0)*//*)
             {
                 OnShoot();
-            }
+            }*/
             moveInput = joystick.Horizontal;
             if (Input.GetButton("Horizontal") || moveInput != 0) 
             {
